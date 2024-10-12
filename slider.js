@@ -1,5 +1,5 @@
 let numero = 1;
-const duree = 800;
+const duree = 400;
 
 // Si on clique sur la flèche "suivant"
 $("#suivant").click(function () {
