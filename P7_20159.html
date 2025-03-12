@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Slider</title>
+    <link rel="styleSheet" href="slider.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+    <div id="slider">
+        <div id="Item">
+            <button id="precedent" onclick="ChangeSlide(-1)"><</button>
+        </div>
+        <div id="Item">
+            <div id="slide1" class="Visible">
+                <h1 class="titre"> debut </h1>
+                <img src="./debut.png" id="slide1">
+            </div>
+            <div id="slide2" class="no">
+                <h1 class="titre"> "001 - 23 &#8364;" </h1>
+                <img src="./P7_20159/001.png" id="slide2">
+            </div>
+            <div id="slide3" class="no">
+                <h1 class="titre"> "002 - 26 &#8364;" </h1>
+                <img src="./P7_20159/002.png" id="slide3">
+            </div>
+            <div id="slide4" class="no">
+                <h1 class="titre"> "003 - 29 &#8364;" </h1>
+                <img src="./P7_20159/003.png" id="slide4">
+            </div>
+            <div id="slide5" class="no">
+                <h1 class="titre"> "004 - 24 &#8364;" </h1>
+                <img src="./P7_20159/004.png" id="slide5">
+            </div>
+            <div id="slide6" class="no">
+                <h1 class="titre"> "005 - 22 &#8364;" </h1>
+                <img src="./P7_20159/005.png" id="slide6">
+            </div>
+            <div id="slide7" class="no">
+                <h1 class="titre"> "006 - 26 &#8364;" </h1>
+                <img src="./P7_20159/006.png" id="slide7">
+            </div>
+            <div id="slide8" class="no">
+                <h1 class="titre"> "007 - 25 &#8364;" </h1>
+                <img src="./P7_20159/007.png" id="slide8">
+            </div>
+            <div id="slide9" class="no">
+                <h1 class="titre"> "008 - 23 &#8364;" </h1>
+                <img src="./P7_20159/008.png" id="slide9">
+            </div>
+            <div id="slide10" class="no">
+                <h1 class="titre"> "009 - 26 &#8364;" </h1>
+                <img src="./P7_20159/009.png" id="slide10">
+            </div>
+            <div id="slide11" class="no">
+                <h1 class="titre"> "010 - 27 &#8364;" </h1>
+                <img src="./P7_20159/010.png" id="slide11">
+            </div>
+            <div id="slide12" class="no">
+                <h1 class="titre"> "011 - 27 &#8364;" </h1>
+                <img src="./P7_20159/011.png" id="slide12">
+            </div>
+            <div id="slide13" class="no">
+                <h1 class="titre"> "012 - 17 &#8364;" </h1>
+                <img src="./P7_20159/012.png" id="slide13">
+            </div>
+            <div id="slide14" class="no">
+                <h1 class="titre"> "013 - 17 &#8364;" </h1>
+                <img src="./P7_20159/013.png" id="slide14">
+            </div>
+            <div id="slide15" class="no">
+                <h1 class="titre"> "014 - 17 &#8364;" </h1>
+                <img src="./P7_20159/014.png" id="slide15">
+            </div>
+            <div id="slide16" class="no">
+                <h1 class="titre"> "015 - 18 &#8364;" </h1>
+                <img src="./P7_20159/015.png" id="slide16">
+            </div>
+            <div id="slide17" class="no">
+                <h1 class="titre"> "016 - 17 &#8364;" </h1>
+                <img src="./P7_20159/016.png" id="slide17">
+            </div>
+            <div id="slide18" class="no">
+                <h1 class="titre"> "017 - 16 &#8364;" </h1>
+                <img src="./P7_20159/017.png" id="slide18">
+            </div>
+            <div id="slide19" class="no">
+                <h1 class="titre"> "018 - 15 &#8364;" </h1>
+                <img src="./P7_20159/018.png" id="slide19">
+            </div>
+            <div id="slide20" class="no">
+                <h1 class="titre"> "019 - 19 &#8364;" </h1>
+                <img src="./P7_20159/019.png" id="slide20">
+            </div>
+            <div id="slide21" class="no">
+                <h1 class="titre"> "020 - 22 &#8364;" </h1>
+                <img src="./P7_20159/020.png" id="slide21">
+            </div>
+            <div id="slide22" class="no">
+                <h1 class="titre"> "021 - 20 &#8364;" </h1>
+                <img src="./P7_20159/021.png" id="slide22">
+            </div>
+            <div id="slide23" class="no">
+                <h1 class="titre"> "022 - 27 &#8364;" </h1>
+                <img src="./P7_20159/022.png" id="slide23">
+            </div>
+            <div id="slide24" class="no">
+                <h1 class="titre"> "023 - 35 &#8364;" </h1>
+                <img src="./P7_20159/023.png" id="slide24">
+            </div>
+            <div id="slide25" class="no">
+                <h1 class="titre"> "024 - 48 &#8364;" </h1>
+                <img src="./P7_20159/024.png" id="slide25">
+            </div>
+            <div id="slide26" class="no">
+                <h1 class="titre"> "025 - 47 &#8364;" </h1>
+                <img src="./P7_20159/025.png" id="slide26">
+            </div>
+            <div id="slide27" class="no">
+                <h1 class="titre"> "026 - 43 &#8364;" </h1>
+                <img src="./P7_20159/026.png" id="slide27">
+            </div>
+            <div id="slide28" class="no">
+                <h1 class="titre"> "027 - 48 &#8364;" </h1>
+                <img src="./P7_20159/027.png" id="slide28">
+            </div>
+            <div id="slide29" class="no">
+                <h1 class="titre"> "028 - 43 &#8364;" </h1>
+                <img src="./P7_20159/028.png" id="slide29">
+            </div>
+            <div id="slide30" class="no">
+                <h1 class="titre"> "029 - 32 &#8364;" </h1>
+                <img src="./P7_20159/029.png" id="slide30">
+            </div>
+            <div id="slide31" class="no">
+                <h1 class="titre"> "030 - 31 &#8364;" </h1>
+                <img src="./P7_20159/030.png" id="slide31">
+            </div>
+            <div id="slide32" class="no">
+                <h1 class="titre"> "031 - 35 &#8364;" </h1>
+                <img src="./P7_20159/031.png" id="slide32">
+            </div>
+            <div id="slide33" class="no">
+                <h1 class="titre"> "032 - 30 &#8364;" </h1>
+                <img src="./P7_20159/032.png" id="slide33">
+            </div>
+            <div id="slide34" class="no">
+                <h1 class="titre"> "033 - 34 &#8364;" </h1>
+                <img src="./P7_20159/033.png" id="slide34">
+            </div>
+            <div id="slide35" class="no">
+                <h1 class="titre"> "034 - 26 &#8364;" </h1>
+                <img src="./P7_20159/034.png" id="slide35">
+            </div>
+            <div id="slide36" class="no">
+                <h1 class="titre"> "035 - 28 &#8364;" </h1>
+                <img src="./P7_20159/035.png" id="slide36">
+            </div>
+            <div id="slide37" class="no">
+                <h1 class="titre"> "036 - 18 &#8364;" </h1>
+                <img src="./P7_20159/036.png" id="slide37">
+            </div>
+            <div id="slide38" class="no">
+                <h1 class="titre"> "037 - 22 &#8364;" </h1>
+                <img src="./P7_20159/037.png" id="slide38">
+            </div>
+            <div id="slide39" class="no">
+                <h1 class="titre"> "038 - 19 &#8364;" </h1>
+                <img src="./P7_20159/038.png" id="slide39">
+            </div>
+            <div id="slide40" class="no">
+                <h1 class="titre"> "039 - 21 &#8364;" </h1>
+                <img src="./P7_20159/039.png" id="slide40">
+            </div>
+            <div id="slide41" class="no">
+                <h1 class="titre"> "040 - 19 &#8364;" </h1>
+                <img src="./P7_20159/040.png" id="slide41">
+            </div>
+            <div id="slide42" class="no">
+                <h1 class="titre"> "041 - 26 &#8364;" </h1>
+                <img src="./P7_20159/041.png" id="slide42">
+            </div>
+            <div id="slide43" class="no">
+                <h1 class="titre"> "042 - 37 &#8364;" </h1>
+                <img src="./P7_20159/042.png" id="slide43">
+            </div>
+            <div id="slide44" class="no">
+                <h1 class="titre"> "043 - 30 &#8364;" </h1>
+                <img src="./P7_20159/043.png" id="slide44">
+            </div>
+            <div id="slide45" class="no">
+                <h1 class="titre"> "044 - 22 &#8364;" </h1>
+                <img src="./P7_20159/044.png" id="slide45">
+            </div>
+            <div id="slide46" class="no">
+                <h1 class="titre"> "045 - 19 &#8364;" </h1>
+                <img src="./P7_20159/045.png" id="slide46">
+            </div>
+            <div id="slide47" class="no">
+                <h1 class="titre"> "046 - 34 &#8364;" </h1>
+                <img src="./P7_20159/046.png" id="slide47">
+            </div>
+            <div id="slide48" class="no">
+                <h1 class="titre"> "047 - 33 &#8364;" </h1>
+                <img src="./P7_20159/047.png" id="slide48">
+            </div>
+            <div id="slide49" class="no">
+                <h1 class="titre"> "048 - 29 &#8364;" </h1>
+                <img src="./P7_20159/048.png" id="slide49">
+            </div>
+            <div id="slide50" class="no">
+                <h1 class="titre"> "049 - 29 &#8364;" </h1>
+                <img src="./P7_20159/049.png" id="slide50">
+            </div>
+            <div id="slide51" class="no">
+                <h1 class="titre"> "050 - 27 &#8364;" </h1>
+                <img src="./P7_20159/050.png" id="slide51">
+            </div>
+            <div id="slide52" class="no">
+                <h1 class="titre"> "051 - 20 &#8364;" </h1>
+                <img src="./P7_20159/051.png" id="slide52">
+            </div>
+            <div id="slide53" class="no">
+                <h1 class="titre"> "052 - 26 &#8364;" </h1>
+                <img src="./P7_20159/052.png" id="slide53">
+            </div>
+            <div id="slide54" class="no">
+                <h1 class="titre"> "053 - 24 &#8364;" </h1>
+                <img src="./P7_20159/053.png" id="slide54">
+            </div>
+            <div id="slide55" class="no">
+                <h1 class="titre"> "054 - 26 &#8364;" </h1>
+                <img src="./P7_20159/054.png" id="slide55">
+            </div>
+            <div id="slide56" class="no">
+                <h1 class="titre"> "055 - 41 &#8364;" </h1>
+                <img src="./P7_20159/055.png" id="slide56">
+            </div>
+            <div id="slide57" class="no">
+                <h1 class="titre"> "056 - 40 &#8364;" </h1>
+                <img src="./P7_20159/056.png" id="slide57">
+            </div>
+            <div id="slide58" class="no">
+                <h1 class="titre"> "057 - 38 &#8364;" </h1>
+                <img src="./P7_20159/057.png" id="slide58">
+            </div>
+            <div id="slide59" class="no">
+                <h1 class="titre"> "058 - 37 &#8364;" </h1>
+                <img src="./P7_20159/058.png" id="slide59">
+            </div>
+            <div id="slide60" class="no">
+                <h1 class="titre"> "059 - 22 &#8364;" </h1>
+                <img src="./P7_20159/059.png" id="slide60">
+            </div>
+            <div id="slide61" class="no">
+                <h1 class="titre"> "060 - 27 &#8364;" </h1>
+                <img src="./P7_20159/060.png" id="slide61">
+            </div>
+            <div id="slide62" class="no">
+                <h1 class="titre"> "061 - 27 &#8364;" </h1>
+                <img src="./P7_20159/061.png" id="slide62">
+            </div>
+            <div id="slide63" class="no">
+                <h1 class="titre"> "062 - 24 &#8364;" </h1>
+                <img src="./P7_20159/062.png" id="slide63">
+            </div>
+            <div id="slide64" class="no">
+                <h1 class="titre"> "063 - 26 &#8364;" </h1>
+                <img src="./P7_20159/063.png" id="slide64">
+            </div>
+            <div id="slide65" class="no">
+                <h1 class="titre"> "064 - 20 &#8364;" </h1>
+                <img src="./P7_20159/064.png" id="slide65">
+            </div>
+            <div id="slide66" class="no">
+                <h1 class="titre"> "065 - 20 &#8364;" </h1>
+                <img src="./P7_20159/065.png" id="slide66">
+            </div>
+            <div id="slide67" class="no">
+                <h1 class="titre"> "066 - 19 &#8364;" </h1>
+                <img src="./P7_20159/066.png" id="slide67">
+            </div>
+            <div id="slide68" class="no">
+                <h1 class="titre"> "067 - 22 &#8364;" </h1>
+                <img src="./P7_20159/067.png" id="slide68">
+            </div>
+            <div id="slide69" class="no">
+                <h1 class="titre"> "068 - 20 &#8364;" </h1>
+                <img src="./P7_20159/068.png" id="slide69">
+            </div>
+            <div id="slide70" class="no">
+                <h1 class="titre"> "069 - 19 &#8364;" </h1>
+                <img src="./P7_20159/069.png" id="slide70">
+            </div>
+            <div id="slide71" class="no">
+                <h1 class="titre"> "070 - 22 &#8364;" </h1>
+                <img src="./P7_20159/070.png" id="slide71">
+            </div>
+            <div id="slide72" class="no">
+                <h1 class="titre"> "071 - 19 &#8364;" </h1>
+                <img src="./P7_20159/071.png" id="slide72">
+            </div>
+            <div id="slide73" class="no">
+                <h1 class="titre"> "072 - 23 &#8364;" </h1>
+                <img src="./P7_20159/072.png" id="slide73">
+            </div>
+            <div id="slide74" class="no">
+                <h1 class="titre"> "073 - 21 &#8364;" </h1>
+                <img src="./P7_20159/073.png" id="slide74">
+            </div>
+            <div id="slide75" class="no">
+                <h1 class="titre"> "074 - 29 &#8364;" </h1>
+                <img src="./P7_20159/074.png" id="slide75">
+            </div>
+            <div id="slide76" class="no">
+                <h1 class="titre"> "075 - 26 &#8364;" </h1>
+                <img src="./P7_20159/075.png" id="slide76">
+            </div>
+            <div id="slide77" class="no">
+                <h1 class="titre"> "076 - 17 &#8364;" </h1>
+                <img src="./P7_20159/076.png" id="slide77">
+            </div>
+            <div id="slide78" class="no">
+                <h1 class="titre"> "077 - 17 &#8364;" </h1>
+                <img src="./P7_20159/077.png" id="slide78">
+            </div>
+            <div id="slide79" class="no">
+                <h1 class="titre"> "078 - 23 &#8364;" </h1>
+                <img src="./P7_20159/078.png" id="slide79">
+            </div>
+            <div id="slide80" class="no">
+                <h1 class="titre"> "079 - 25 &#8364;" </h1>
+                <img src="./P7_20159/079.png" id="slide80">
+            </div>
+            <div id="slide81" class="no">
+                <h1 class="titre"> "080 - 32 &#8364;" </h1>
+                <img src="./P7_20159/080.png" id="slide81">
+            </div>
+            <div id="slide82" class="no">
+                <h1 class="titre"> "081 - 28 &#8364;" </h1>
+                <img src="./P7_20159/081.png" id="slide82">
+            </div>
+            <div id="slide83" class="no">
+                <h1 class="titre"> "082 - 26 &#8364;" </h1>
+                <img src="./P7_20159/082.png" id="slide83">
+            </div>
+            <div id="slide84" class="no">
+                <h1 class="titre"> "083 - 22 &#8364;" </h1>
+                <img src="./P7_20159/083.png" id="slide84">
+            </div>
+            <div id="slide85" class="no">
+                <h1 class="titre"> "084 - 21 &#8364;" </h1>
+                <img src="./P7_20159/084.png" id="slide85">
+            </div>
+            <div id="slide86" class="no">
+                <h1 class="titre"> "085 - 23 &#8364;" </h1>
+                <img src="./P7_20159/085.png" id="slide86">
+            </div>
+            <div id="slide87" class="no">
+                <h1 class="titre"> "086 - 21 &#8364;" </h1>
+                <img src="./P7_20159/086.png" id="slide87">
+            </div>
+            <div id="slide88" class="no">
+                <h1 class="titre"> "087 - 10 &#8364;" </h1>
+                <img src="./P7_20159/087.png" id="slide88">
+            </div>
+            <div id="slide89" class="no">
+                <h1 class="titre"> fin </h1>
+                <img src="./fin.png" id="slide89">
+            </div>
+        </div>
+        <div id="Item">
+            <button id="suivant" onclick="ChangeSlide(1)">></button>
+        </div>
+    </div>
+    <script src="slider.js"></script>
+</body>
+</html>
